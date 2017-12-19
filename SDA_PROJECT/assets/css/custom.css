@@ -1,0 +1,75 @@
+.btn-danger {
+    background-color: #ed6b75 !important;
+    border-color: #ea5460 !important;
+}
+
+.btn-danger:hover {
+    background-color: #e73d4a !important;
+    border-color: #e31d2d !important;
+}
+
+.btn-warning {
+    background-color: #F1C40F !important;
+    border-color: #dab10d !important;
+}
+
+.btn-warning:hover {
+    background-color: #c29d0b !important;
+    border-color: #a08209 !important;
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.cart a span {
+    max-width: 30px;
+    display: block;
+    overflow: hidden;
+    color: black;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.cart a:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    top: 7px;
+    right: 64px;
+
+}
+
+.cart:hover a span {
+    color: #e62e04;
+}
+
+.cart:hover a:before {
+    background-position: 0 -625px;
+}
+
+.cart a:before {
+    background-image: url("http://i.alicdn.com/ae-header/20171027201924/buyer/common/img/icons-s7ceb5615b6.png");
+    background-position: 0 -575px;
+    background-repeat: no-repeat;
+}
+
+.cart-number {
+    position: absolute;
+    top: 6px;
+    right: 33px;
+    padding: 0 2px;
+    min-width: 25px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #e62e04;
+    color: #fff;
+    font-size: 12px;
+}
